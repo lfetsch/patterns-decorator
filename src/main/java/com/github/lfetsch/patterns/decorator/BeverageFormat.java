@@ -1,4 +1,4 @@
-package org.example;
+package com.github.lfetsch.patterns.decorator;
 
 import java.text.DecimalFormat;
 

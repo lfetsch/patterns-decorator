@@ -1,22 +1,22 @@
-package org.example;
+package com.github.lfetsch.patterns.decorator;
 
 import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
-public class WhipTest {
+public class DarkRoastTest {
 
-    Beverage beverage;
+    private Beverage beverage;
 
     @Before
     public void setup() {
-        beverage = new Whip(new HouseBlend());
+        beverage = new DarkRoast();
     }
 
     @Test
     public void getDescription() {
-        assertEquals("House Blend, Whip", beverage.getDescription());
+        assertEquals("Dark Roast", beverage.getDescription());
     }
 
     @Test

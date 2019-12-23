@@ -1,4 +1,4 @@
-package org.example;
+package com.github.lfetsch.patterns.decorator;
 
 public abstract class Beverage {
     String description = "Unknown beverage";
